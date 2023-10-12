@@ -51,7 +51,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'AswinMani24012002/my-spring-app1/index.html'
+          app-name: 'AswinMani24012002/my-spring-app1/index.cshtml'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FAC37763631E4221BAF24DAC7F643818 }}
           package: .
